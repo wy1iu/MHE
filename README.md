@@ -39,7 +39,7 @@ If you find our work useful in your research, please consider to cite:
 
 ### sphereface-plus
 
-SphereFace+ is implemented in Caffe and therefore is independently host (here)[https://github.com/wy1iu/sphereface-plus].
+SphereFace+ is implemented in Caffe and therefore is independently host [here](https://github.com/wy1iu/sphereface-plus).
 
 ### Note
 
