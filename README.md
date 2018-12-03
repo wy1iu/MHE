@@ -44,8 +44,13 @@ If you find our work useful in your research, please consider to cite:
 	```Shell
 	git clone https://github.com/wy1iu/MHE.git
 	```
+	
+#### Part 2: Download CIFAR-100 training and testing data
+  - For the current code, we use our own data pre-processing code, and it it the standard pre-processing for CIFAR-100. The training and testing data can be downloaded via [google drive](https://drive.google.com/open?id=1DA1J7tuloqyPKW-zdYEPJCipZ5HJv-5Y). Users should put the downloaded data to the `MHE_ROOT` directory.
+  - We will modify and replace the data pre-processing code to work with the binary data directly. The current version is just for demo purpose.
+  
 
-#### Part 2: CIFAR-100
+#### Part 3: CIFAR-100
   - Train and test the model with the following code:
 
 	```Shell
