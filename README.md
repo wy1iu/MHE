@@ -17,7 +17,7 @@ MHE and SphereFace+ are released under the MIT License (refer to the LICENSE fil
 
 ### Introduction
 
-The repository contains the tensorflow implementation of Minimum Hyperspherical Energy (MHE) and Caffe implementation of SphereFace+. The code will be released shortly.
+The repository contains the tensorflow implementation of Minimum Hyperspherical Energy (MHE) and Caffe implementation of SphereFace+. Our paper is available at [arXiv](https://arxiv.org/abs/1805.09298). The code is a demo code and the complete version will be released shortly.
 
 
 ### Citation
