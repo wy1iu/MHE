@@ -59,12 +59,12 @@ If you find our work useful in your research, please consider to cite:
   - The parameters include `model_name: [baseline, mhe, half_mhe]` and `power_s: [0, 1, 2, a0, a1, a2]`. `mhe` denotes the full-space MHE regularization, `half_mhe` represents the half-space MHE, and `power_s` is the parameter s (see equation 1 in the paper) to control the formulation of MHE (`0,1,2` are the Euclidean distance, and `a0,a1,a2` use the angles).
   - For different datasets, you may need adjuest to hyperparameter for the entire MHE regularizaiton.
 ### Results
-  - See the `log` folder for the results.
+  - See the `log` folder for the expected results.
   
 ### sphereface-plus
 
 SphereFace+ is implemented in Caffe and therefore is independently host [here](https://github.com/wy1iu/sphereface-plus).
 
 ### Note
-  - All the results in the paper can be reproduced using this code. For the GAN applciation in Appendix, we use the official spectral normalization implementation and directly plug in our MHE regularization.
+  - All the results in the paper can be reproduced using this code. For the GAN applciation in Appendix, we use the [official spectral normalization implementation](https://github.com/pfnet-research/chainer-gan-lib) and directly plug in our MHE regularization.
 
