@@ -12,6 +12,7 @@ MHE and SphereFace+ are released under the MIT License (refer to the LICENSE fil
 0. [Usage](#usage)
 0. [Results](#results)
 0. [SphereFace+ for face recognition](#sphereface-plus)
+0. [Generative Adversarial Networks with MHE](#MHE-GAN)
 0. [Note](#note)
 
 
@@ -64,6 +65,9 @@ If you find our work useful in your research, please consider to cite:
 ### SphereFace-plus
 
 SphereFace+ is an improved deep face recognition algorithm based on [SphereFace](https://github.com/wy1iu/sphereface). We incorporate the MHE regularization to the original SphereFace and further boost the recognition accuracy. is implemented in Caffe and therefore is independently host [here](https://github.com/wy1iu/sphereface-plus).
+
+### MHE-GAN
+TBA
 
 ### Note
   - All the results in the paper can be reproduced using this code. For the GAN applciation in Appendix, we use the [official spectral normalization implementation](https://github.com/pfnet-research/chainer-gan-lib) and directly plug in our MHE regularization.
