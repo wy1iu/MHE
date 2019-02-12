@@ -35,7 +35,8 @@ If you find our work useful in your research, please consider to cite:
 ### Requirements
 1. `Python 3.6` (`Python 2.7` needs to modify the unpickle funtion in train.py)
 2. `TensorFlow`
-3. `numpy`
+3. `Keras` (for MHE-GAN)
+4. `numpy`
 
 ### Usage
 
@@ -67,11 +68,11 @@ If you find our work useful in your research, please consider to cite:
 SphereFace+ is an improved deep face recognition algorithm based on [SphereFace](https://github.com/wy1iu/sphereface). We incorporate the MHE regularization to the original SphereFace and further boost the recognition accuracy. is implemented in Caffe and therefore is independently host [here](https://github.com/wy1iu/sphereface-plus).
 
 ### MHE-GAN
-The weight files are located here: https://drive.google.com/open?id=1mj66LK6MRiVvNGdfASNO6v6GWW3FV3ST. Please place the model files under `snapshots` folder in the corresponding experiment folders.
+The weight files are provided at [Google Drive](https://drive.google.com/open?id=1mj66LK6MRiVvNGdfASNO6v6GWW3FV3ST). Please place the model files under the `snapshots` folder in the corresponding experiment folders.
 
 To train a model, simply run `python train.py`. To test the best models we provide, run `python test.py`.
 
-For the model trained with both MHE (full-space, magnitude 1e-7) and spectral normalization (located in `MHE-GAN/sn-model`), we obtained the inception score of 7.68.
+For the model trained with both MHE (full-space, magnitude 1e-7) and spectral normalization (located in `MHE-GAN/sn-model`), we obtained the inception score of **7.68**, which is much higher than we originally reported in the paper.
 
 ### Note
   - All the results in the paper can be reproduced using this code. For the GAN applciation in Appendix, we use the [official spectral normalization implementation](https://github.com/pfnet-research/chainer-gan-lib) and directly plug in our MHE regularization.
