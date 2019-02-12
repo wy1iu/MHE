@@ -70,7 +70,7 @@ SphereFace+ is an improved deep face recognition algorithm based on [SphereFace]
 ### MHE-GAN
 The weight files are provided at [Google Drive](https://drive.google.com/open?id=1mj66LK6MRiVvNGdfASNO6v6GWW3FV3ST). Please place the model files under the `snapshots` folder in the corresponding experiment folders.
 
-To train a model, simply run `python train.py`. To test the best models we provide, run `python test.py`.
+To train a model from scratch, simply run `python train.py`. To test the best models we provide, run `python test.py`.
 
 For the model trained with both MHE (full-space, magnitude 1e-7) and spectral normalization (located in `MHE-GAN/sn-model`), we obtained the inception score of **7.68**, which is much higher than we originally reported in the paper.
 
