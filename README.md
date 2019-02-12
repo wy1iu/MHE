@@ -13,7 +13,6 @@ MHE and SphereFace+ are released under the MIT License (refer to the LICENSE fil
 0. [Results](#results)
 0. [SphereFace+ for face recognition](#sphereface-plus)
 0. [Generative Adversarial Networks with MHE](#MHE-GAN)
-0. [Note](#note)
 
 
 ### Introduction
@@ -79,6 +78,4 @@ Some random samples of the generated images from MHE-GAN is shown as follows:
 
 <img src="assets/MHE-GAN-Samples.png" width="30%" height="30%">
 
-### Note
-  - All the results in the paper can be reproduced using this code. For the GAN applciation in Appendix, we use the [official spectral normalization implementation](https://github.com/pfnet-research/chainer-gan-lib) and directly plug in our MHE regularization.
 
