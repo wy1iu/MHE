@@ -72,7 +72,7 @@ The weight files are provided at [Google Drive](https://drive.google.com/open?id
 
 To train a model from scratch, simply run `python train.py`. To test the best models we provide, run `python test.py`.
 
-For the model trained with both MHE (full-space, magnitude 1e-7) and spectral normalization (located in `MHE-GAN/sn-model`), we obtained the inception score of **7.68**, which is much higher than we originally reported in the paper. In contrast, the same GAN with only spectral normalization yields **7.4** inception score and the baseline GAN only achieves **6.64**.
+For the model trained with both MHE (half-space, magnitude 1e-7) and spectral normalization (located in `MHE-GAN/sn-model`), we obtained the inception score of **7.68**, which is much higher than we originally reported in the paper. In contrast, the same GAN with only spectral normalization yields **7.4** inception score and the baseline GAN only achieves **6.64**.
 
 ### Note
   - All the results in the paper can be reproduced using this code. For the GAN applciation in Appendix, we use the [official spectral normalization implementation](https://github.com/pfnet-research/chainer-gan-lib) and directly plug in our MHE regularization.
