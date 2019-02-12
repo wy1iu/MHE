@@ -75,6 +75,9 @@ For the model trained with both MHE (half-space, magnitude 1e-7) and spectral no
 
 The weight files of the model achieving **7.68** inception score are provided at [Google Drive](https://drive.google.com/open?id=1mj66LK6MRiVvNGdfASNO6v6GWW3FV3ST). Please place the model files under the `snapshots` folder in the corresponding experiment folders.
 
+Some random samples of the generated images from MHE-GAN is shown as follows:
+<img src="assets/MHE-GAN-Samples.png" width="55%" height="55%">
+
 ### Note
   - All the results in the paper can be reproduced using this code. For the GAN applciation in Appendix, we use the [official spectral normalization implementation](https://github.com/pfnet-research/chainer-gan-lib) and directly plug in our MHE regularization.
 
