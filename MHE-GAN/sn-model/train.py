@@ -94,7 +94,7 @@ if tf.train.latest_checkpoint('snapshots') is not None:
 
 iteration = sess.run(global_step)
 start = timeit.default_timer()
-
+best_inception = 0.0
 
 is_start_iteration = False
 inception_scores = []
