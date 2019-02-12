@@ -48,7 +48,7 @@ If you find our work useful in your research, please consider to cite:
 	```
 	
 #### Part 2: Download CIFAR-100 training and testing data
-  - For the current code, we use our own data pre-processing code, and it is the standard pre-processing for CIFAR-100. The training and testing data can be downloaded via [google drive](https://drive.google.com/open?id=1DA1J7tuloqyPKW-zdYEPJCipZ5HJv-5Y). Users should put the downloaded data to the `MHE_ROOT` directory.
+  - For the current code, we use our own data pre-processing code, and it is the standard pre-processing for CIFAR-100. The training and testing data can be downloaded via [Google Drive](https://drive.google.com/open?id=1DA1J7tuloqyPKW-zdYEPJCipZ5HJv-5Y). Users should put the downloaded data to the `MHE_ROOT` directory.
   
 
 #### Part 3: CIFAR-100
