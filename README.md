@@ -67,9 +67,9 @@ If you find our work useful in your research, please consider to cite:
 SphereFace+ is an improved deep face recognition algorithm based on [SphereFace](https://github.com/wy1iu/sphereface). We incorporate the MHE regularization to the original SphereFace and further boost the recognition accuracy. is implemented in Caffe and therefore is independently host [here](https://github.com/wy1iu/sphereface-plus).
 
 ### MHE-GAN
-The weights file are located here: https://drive.google.com/open?id=1mj66LK6MRiVvNGdfASNO6v6GWW3FV3ST. Please place the models files under `snapshots` folder in the corresponding experiment folders.
+The weight files are located here: https://drive.google.com/open?id=1mj66LK6MRiVvNGdfASNO6v6GWW3FV3ST. Please place the model files under `snapshots` folder in the corresponding experiment folders.
 
-To train the model, simply run `python train.py`. To test the best model we provide, run `python test.py`.
+To train a model, simply run `python train.py`. To test the best models we provide, run `python test.py`.
 
 For the model trained with both MHE (full-space, magnitude 1e-7) and spectral normalization, we obtained the inception score of 7.68.
 
