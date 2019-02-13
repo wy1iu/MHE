@@ -76,7 +76,7 @@ For the model trained with only MHE (half-space, magnitude 1e-6, located in `MHE
 
 The weight files of the MHE+SN model with inception score **7.68** and the MHE-only model with inception score **7.48** are provided at [Google Drive](https://drive.google.com/open?id=1mj66LK6MRiVvNGdfASNO6v6GWW3FV3ST). Please place the model files under the `snapshots` folder in the corresponding experiment folders.
 
-Some random samples of the generated images from MHE-GAN is shown as follows:
+Some random samples of the generated images from MHE-GAN (MHE+SN) is shown as follows:
 
 <img src="assets/MHE-GAN-Samples.png" width="30%" height="30%">
 
