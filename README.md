@@ -74,6 +74,9 @@ To train a model from scratch, simply run `python train.py`. To test the best mo
 
 For the model trained with both MHE (half-space, magnitude 1e-7) and spectral normalization (located in `MHE-GAN/sn-model`), we obtained the inception score of **7.68**, which is much higher than we originally reported in the paper. In contrast, the same GAN with only spectral normalization yields **7.4** inception score and the baseline GAN only achieves **6.64**.
 
+For the model trained with only MHE (half-space, magnitude 1e-6, located in `MHE-GAN/non-sn-model`), we obtained the inception score of **7.48**, which is also much higher than we originally reported in the paper.
+
 ### Note
-  - All the results in the paper can be reproduced using this code. For the GAN applciation in Appendix, we use the [official spectral normalization implementation](https://github.com/pfnet-research/chainer-gan-lib) and directly plug in our MHE regularization.
+  - All the results in the paper can be reproduced using this code.
+  - The codes were tested on tensorflow of versions >= 1.10. For earlier versions, the code for computing inception score might report wrong inception scores due to bugs in tf.contrib.gan.
 
