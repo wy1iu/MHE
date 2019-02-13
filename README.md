@@ -74,7 +74,7 @@ For the model trained with both MHE (half-space, magnitude 1e-7) and spectral no
 
 For the model trained with only MHE (half-space, magnitude 1e-6, located in `MHE-GAN/non-sn-model`), we obtained the inception score of **7.48**, which is also much higher than we originally reported in the paper.
 
-The weight files of the model achieving **7.68** inception score are provided at [Google Drive](https://drive.google.com/open?id=1mj66LK6MRiVvNGdfASNO6v6GWW3FV3ST). Please place the model files under the `snapshots` folder in the corresponding experiment folders.
+The weight files of the MHE+SN model with inception score **7.68** and the MHE-only model with inception score **7.48** are provided at [Google Drive](https://drive.google.com/open?id=1mj66LK6MRiVvNGdfASNO6v6GWW3FV3ST). Please place the model files under the `snapshots` folder in the corresponding experiment folders.
 
 Some random samples of the generated images from MHE-GAN is shown as follows:
 
