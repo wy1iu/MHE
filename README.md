@@ -76,6 +76,15 @@ For the model trained with only MHE (half-space, magnitude 1e-6, located in `MHE
 
 The weight files of the MHE+SN model with inception score **7.68** and the MHE-only model with inception score **7.48** are provided at [Google Drive](https://drive.google.com/open?id=1mj66LK6MRiVvNGdfASNO6v6GWW3FV3ST). Please place the model files under the `snapshots` folder in the corresponding experiment folders.
 
+The following table summarizes the results:
+
+        Model | Inception Score
+	:---:|:---:
+	Baseline GAN | 6.64
+	GAN w/ Spectral Norm | 7.40
+	GAN w/ MHE | **7.48**
+	GAN w/ Spectral Norm & MHE | **7.68**
+
 Some random samples of the generated images from MHE-GAN (MHE+SN) is shown as follows:
 
 <img src="assets/MHE-GAN-Samples.png" width="30%" height="30%">
