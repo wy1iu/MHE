@@ -64,7 +64,7 @@ If you find our work useful in your research, please consider to cite:
   
 ### SphereFace-plus
 
-SphereFace+ is an improved deep face recognition algorithm based on [SphereFace](https://github.com/wy1iu/sphereface). We incorporate the MHE regularization to the original SphereFace and further boost the recognition accuracy. is implemented in Caffe and therefore is independently host [here](https://github.com/wy1iu/sphereface-plus).
+**SphereFace+** is an improved deep face recognition algorithm based on [SphereFace](https://github.com/wy1iu/sphereface). We incorporate the MHE regularization to the original SphereFace and further boost the recognition accuracy. SphereFace+ is implemented in Caffe and therefore is independently host [here](https://github.com/wy1iu/sphereface-plus).
 
 ### MHE-GAN
 
