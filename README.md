@@ -78,12 +78,16 @@ The weight files of the MHE+SN model with inception score **7.68** and the MHE-o
 
 The following table summarizes the results:
 
-        Model | Inception Score
-	:---:|:---:
-	Baseline GAN | 6.64
-	GAN w/ Spectral Norm | 7.40
-	GAN w/ MHE | **7.48**
-	GAN w/ Spectral Norm & MHE | **7.68**
+| Model      | Inception Score  | Weights |
+| ---------- | :-----------: | :-----------: |
+| Baseline GAN | 6.64      | N/A |
+| GAN w/ Spectral Norm |7.40    | N/A |
+| GAN w/ MHE | **7.48**     | [Google Drive](https://drive.google.com/open?id=1mj66LK6MRiVvNGdfASNO6v6GWW3FV3ST) |
+| GAN w/ Spectral Norm & MHE | **7.68**      | [Google Drive](https://drive.google.com/open?id=1mj66LK6MRiVvNGdfASNO6v6GWW3FV3ST) |
+	
+
+3. Train the sphereface model.
+
 
 Some random samples of the generated images from MHE-GAN (MHE+SN) is shown as follows:
 
