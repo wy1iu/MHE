@@ -13,6 +13,7 @@ By Weiyang Liu*, Rongmei Lin*, Zhen Liu*, Lixin Liu*, Zhiding Yu, Bo Dai, Le Son
 0. [Results](#results)
 0. [SphereFace+ for face recognition](#sphereface-plus)
 0. [Generative Adversarial Networks with MHE](#MHE-GAN)
+0. [Note](#Note)
 
 
 ### Introduction
