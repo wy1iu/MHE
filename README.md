@@ -3,7 +3,7 @@
 By Weiyang Liu*, Rongmei Lin*, Zhen Liu*, Lixin Liu*, Zhiding Yu, Bo Dai, Le Song
 
 ### License
-MHE and SphereFace+ are released under the MIT License (refer to the LICENSE file for details).
+*MHE* and *SphereFace+* are released under the MIT License (refer to the LICENSE file for details).
 
 ### Contents
 0. [Introduction](#introduction)
@@ -17,8 +17,9 @@ MHE and SphereFace+ are released under the MIT License (refer to the LICENSE fil
 
 ### Introduction
 
-The repository contains the tensorflow implementation of Minimum Hyperspherical Energy (MHE) and Caffe implementation of SphereFace+. MHE is a simple plug-in regularization for neural networks, which enchances the neuron diversity on hyperspher and therefore improves the network's generalization ability. Our paper is available at [arXiv](https://arxiv.org/abs/1805.09298).
+The repository contains the tensorflow implementation of **Minimum Hyperspherical Energy (MHE)** and Caffe implementation of SphereFace+. Inspired by a well-known Physics problem (Thomson problem), MHE is formulated as an energy on a hypersphere. Minimizing it can achieve better generalization in various applications. In general, MHE serves as a simple plug-in regularization for neural networks, which enchances the neuron diversity on hyperspheres (i.e., angular diversity) and is able to consistently improve the network's generalization ability in various application. Our paper is published in **NIPS 2018** and is available at [arXiv](https://arxiv.org/abs/1805.09298).
 
+<img src="assets/teaser.png" width="55%" height="55%">
 
 ### Citation
 
