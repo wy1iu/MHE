@@ -93,3 +93,4 @@ Some random samples of the generated images from MHE-GAN (MHE+SN) is shown as fo
 
 ### Note
   - The code was tested on tensorflow of versions >= 1.10. For earlier versions, the code for computing inception score might report wrong inception scores due to bugs in tf.contrib.gan.
+  - Surprisingly, we found that using Titan Xp to run our code gives better performance on CIFAR-10 than using GTX 1080. Note that, all the experiments in the paper are run by Titan Xp.
