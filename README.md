@@ -2,7 +2,7 @@
 
 By Weiyang Liu*, Rongmei Lin*, Zhen Liu*, Lixin Liu*, Zhiding Yu, Bo Dai, Le Song
 
-### License
+### License 
 *MHE* and *SphereFace+* are released under the MIT License (refer to the LICENSE file for details).
 
 ### Contents
